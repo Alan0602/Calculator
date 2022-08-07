@@ -1,0 +1,95 @@
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 400px;
+    width: 350px;
+    margin: auto;
+    background-color: #30355b;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-top:20px;
+}
+body{
+text-align: center;
+height:600px;
+background-image:linear-gradient(rgb(43, 43, 183),rgb(220, 193, 193));
+}
+h1{
+    color: rgb(226, 138, 118);
+}
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid rgb(189, 159, 159) 0.5px;
+    color: rgb(234, 159, 159);
+    border-radius: 5px;
+    width: 98%;
+    height: 65%;
+    font-size:18px;
+    box-shadow: inset -5px -5px 12px #c8a4a4,
+				inset 5px 5px 12px rgba(205, 165, 165, 0.16);
+}
+#btn {
+    background-color: #fb0066;
+}
+input[type=button] {
+    font-family: 'Arial', sans-serif;
+    background-color: #a8b6c6;
+    color: white;
+    border: solid rgb(236, 224, 224) 0.5px;
+    width: 90%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+    font-size:20px;
+    box-shadow: inset -5px -5px 12px #ffffff,
+							inset	5px 5px 12px rgba(0, 0, 0, .16);
+}
+.heading{
+color:white;
+font-size:42px;
+margin-left: 70px;
+margin-top: 20px;
+font-family:"Brush Script MT",Cursive;
+}
+p{
+font-size:20px;
+font-family:Monaco,Monospace;
+}
+.desc{
+width:500px;
+margin-left: 70px;
+color:white;
+}
+h1{
+    color:rgb(205, 112, 112);
+    font-family:"Brush Script MT",Cursive;}
+container{
+    text-align: center;
+    height: 100vh;
+background-image:linear-gradient(rgb(43, 43, 183),rgb(220, 193, 193));
+}
+a{
+    text-decoration: none;
+    color: rgb(51, 38, 38);
+}
+.box{
+    background-color: #6294ce;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset -5px -5px 12px #44d352,
+    inset 5px 5px 12px rgba(43, 180, 129, 0.16);}
+.container .product{
+	width:20rem;
+    color: #db7d7d;
+	background:#9fe4dc;
+	text-align: center;
+	padding: 2rem;
+	margin:2rem;
+    box-shadow: inset -5px -5px 12px #77c97f,
+    inset 5px 5px 12px rgba(43, 180, 129, 0.16);}
+.container .product{
+    flex:1 1 48rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;}
+    
